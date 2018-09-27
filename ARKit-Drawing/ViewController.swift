@@ -82,7 +82,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         guard let currentFrame = sceneView.session.currentFrame else { return }
         
         var translation = matrix_identity_float4x4
-        translation.columns.3.z = -0.2
+        translation.columns.3.z = -0.5
         node.simdTransform = matrix_multiply(currentFrame.camera.transform, translation)
         
         addNodeToSceneRoot(node)

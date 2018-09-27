@@ -2,7 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "ID Card.jpg"
+      "filename" : "100RUB.JPG"
     }
   ],
   "info" : {
@@ -10,7 +10,7 @@
     "author" : "xcode"
   },
   "properties" : {
-    "width" : 8.5,
+    "width" : 15.000069686648503,
     "unit" : "centimeters"
   }
 }
